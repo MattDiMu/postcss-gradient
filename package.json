@@ -1,0 +1,24 @@
+{
+    "name": "postcss-gradient",
+    "version": "0.0.0",
+    "description": "PostCSS plugin Magically creates an SVG-background-image from a gradient  forr better browser support (IE9), furthermore a background-color is added as basic IE8E8 and earlier fallback (e.g. to avoid white color on white background as neither linear-gradient nor the SVG ar shown)",
+    "keywords": ["postcss", "css", "postcssplugin", "linear-gradient", "gradient", "fallback", "ie9"],
+    "author": "Matthias Müller <MattDiMu@users.noreply.github.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/MattDiMu/postcss-gradient.git"
+    },
+    "dependencies": {
+        "postcss": "^4.1.5"
+    },
+    "devDependencies": {
+        "gulp-eslint": "0.9.0",
+        "gulp-mocha":  "2.0.1",
+        "chai":        "2.2.0",
+        "gulp":        "3.8.11"
+    },
+    "scripts": {
+        "test": "gulp"
+    }
+}
